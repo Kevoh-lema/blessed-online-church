@@ -151,7 +151,14 @@ const Layout = ({ children }: LayoutProps) => {
           <div className="border-t border-primary-foreground/20 mt-8 pt-4">
             <div className="flex flex-col md:flex-row justify-between items-center text-sm text-primary-foreground/80">
               <p>&copy; {new Date().getFullYear()} Fountain of Life Worship Church Kilgoris. All rights reserved.</p>
-              <p className="mt-2 md:mt-0">Built with love for God's kingdom</p>
+              <div className="flex items-center mt-2 md:mt-0">
+                <span className="mr-2">Powered by Koskei Kevin CEO</span>
+                <img 
+                  src="/lovable-uploads/40223197-112e-4cbd-9519-04638aaa59de.png" 
+                  alt="NEXA Tech Lab" 
+                  className="h-6 w-6 object-contain"
+                />
+              </div>
             </div>
           </div>
         </div>
