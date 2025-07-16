@@ -30,10 +30,12 @@ const Layout = ({ children }: LayoutProps) => {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
-            <Link to="/" className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-hero rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-sm">FL</span>
-              </div>
+            <Link to="/" className="flex items-center space-x-3">
+              <img 
+                src="/lovable-uploads/54b26594-5c2d-4c57-a106-4ce6d56fa089.png" 
+                alt="Fountain of Life Worship Church Logo" 
+                className="h-10 w-10 object-contain"
+              />
               <span className="font-bold text-xl text-primary">Fountain of Life</span>
             </Link>
 
@@ -100,10 +102,12 @@ const Layout = ({ children }: LayoutProps) => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Church Info */}
             <div>
-              <div className="flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-church-gold rounded-full flex items-center justify-center">
-                  <span className="text-primary font-bold text-sm">FL</span>
-                </div>
+              <div className="flex items-center space-x-3 mb-4">
+                <img 
+                  src="/lovable-uploads/54b26594-5c2d-4c57-a106-4ce6d56fa089.png" 
+                  alt="Fountain of Life Worship Church Logo" 
+                  className="h-10 w-10 object-contain"
+                />
                 <span className="font-bold text-xl">Fountain of Life</span>
               </div>
               <p className="text-primary-foreground/80 text-sm">
