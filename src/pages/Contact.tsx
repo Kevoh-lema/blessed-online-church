@@ -96,7 +96,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      details: "info@blessedchurch.org",
+      details: "info@fountainoflifekilgoris.org",
       description: "Send us an email message"
     }
   ];
@@ -304,11 +304,11 @@ const Contact = () => {
                     <div className="flex items-start space-x-4 mb-4">
                       <MapPin className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                       <div>
-                        <h3 className="font-semibold text-primary mb-2">Blessed Church</h3>
+                        <h3 className="font-semibold text-primary mb-2">Fountain of Life Worship Church</h3>
                         <p className="text-muted-foreground">
-                          123 Faith Street<br />
-                          Nairobi, Kenya<br />
-                          P.O. Box 12345-00100
+                          Kilgoris Town<br />
+                          Narok County, Kenya<br />
+                          P.O. Box 123-20700 Kilgoris
                         </p>
                       </div>
                     </div>
@@ -379,11 +379,11 @@ const Contact = () => {
                 <Mail className="h-12 w-12 text-purple-500 mx-auto mb-4" />
                 <h3 className="text-lg font-bold mb-2 text-primary">Email</h3>
                 <p className="text-muted-foreground mb-4">Send us an email message</p>
-                <Button asChild variant="outline" className="w-full">
-                  <a href="mailto:info@blessedchurch.org">
-                    Send Email
-                  </a>
-                </Button>
+              <Button asChild variant="outline" className="w-full">
+                <a href="mailto:info@fountainoflifekilgoris.org">
+                  Send Email
+                </a>
+              </Button>
               </CardContent>
             </Card>
           </div>

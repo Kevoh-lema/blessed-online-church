@@ -284,7 +284,7 @@ const Sermons = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="bg-church-gold hover:bg-church-gold/90 text-primary">
-              <a href="mailto:info@blessedchurch.org">Subscribe to Updates</a>
+              <a href="mailto:info@fountainoflifekilgoris.org">Subscribe to Updates</a>
             </Button>
             <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary">
               <a href="https://facebook.com/pstdanachila" target="_blank" rel="noopener noreferrer">Follow on Facebook</a>

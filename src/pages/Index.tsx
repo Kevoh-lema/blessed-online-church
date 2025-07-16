@@ -40,9 +40,12 @@ const Index = () => {
         <div className="relative container mx-auto px-4 py-20 md:py-32">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Welcome to <span className="text-church-gold">Blessed Church</span>
+              Welcome to <span className="text-church-gold">Fountain of Life</span>
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-white/90">
+            <h2 className="text-2xl md:text-3xl mb-4 text-white/90">
+              Worship Church Kilgoris
+            </h2>
+            <p className="text-xl md:text-2xl mb-8 text-white/80">
               A vibrant life-giving church where rivers of living water flow
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -219,7 +219,7 @@ const Give = () => {
                     <div className="grid grid-cols-1 gap-3">
                       <div className="flex justify-between">
                         <span className="text-muted-foreground">Account Name:</span>
-                        <span className="font-medium">Blessed Church</span>
+                        <span className="font-medium">Fountain of Life Worship Church</span>
                       </div>
                       <div className="flex justify-between">
                         <span className="text-muted-foreground">Bank:</span>

@@ -32,9 +32,9 @@ const Layout = ({ children }: LayoutProps) => {
             {/* Logo */}
             <Link to="/" className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-gradient-hero rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-sm">BC</span>
+                <span className="text-white font-bold text-sm">FL</span>
               </div>
-              <span className="font-bold text-xl text-primary">Blessed Church</span>
+              <span className="font-bold text-xl text-primary">Fountain of Life</span>
             </Link>
 
             {/* Desktop Navigation */}
@@ -102,12 +102,12 @@ const Layout = ({ children }: LayoutProps) => {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <div className="w-8 h-8 bg-church-gold rounded-full flex items-center justify-center">
-                  <span className="text-primary font-bold text-sm">BC</span>
+                  <span className="text-primary font-bold text-sm">FL</span>
                 </div>
-                <span className="font-bold text-xl">Blessed Church</span>
+                <span className="font-bold text-xl">Fountain of Life</span>
               </div>
               <p className="text-primary-foreground/80 text-sm">
-                A vibrant life-giving church manifesting and impacting the life of Jesus Christ on the nations.
+                Fountain of Life Worship Church Kilgoris - A vibrant life-giving church manifesting and impacting the life of Jesus Christ on the nations.
               </p>
             </div>
 
@@ -146,7 +146,7 @@ const Layout = ({ children }: LayoutProps) => {
 
           <div className="border-t border-primary-foreground/20 mt-8 pt-4">
             <div className="flex flex-col md:flex-row justify-between items-center text-sm text-primary-foreground/80">
-              <p>&copy; {new Date().getFullYear()} Blessed Church. All rights reserved.</p>
+              <p>&copy; {new Date().getFullYear()} Fountain of Life Worship Church Kilgoris. All rights reserved.</p>
               <p className="mt-2 md:mt-0">Built with love for God's kingdom</p>
             </div>
           </div>
