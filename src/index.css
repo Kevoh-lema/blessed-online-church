@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 210 20% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 20% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 20% 15%;
+
+    /* Church Deep Blue Primary */
+    --primary: 220 85% 25%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Light Blue Secondary */
+    --secondary: 215 25% 95%;
+    --secondary-foreground: 220 85% 25%;
+
+    --muted: 210 15% 96%;
+    --muted-foreground: 215 15% 45%;
+
+    /* Gold Accent */
+    --accent: 45 90% 55%;
+    --accent-foreground: 220 85% 25%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 220 85% 25%;
+
+    /* Church-specific colors */
+    --church-gold: 45 90% 55%;
+    --church-blue: 220 85% 25%;
+    --church-light-blue: 215 25% 95%;
+    
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--church-blue)), hsl(220 85% 35%));
+    --gradient-gold: linear-gradient(135deg, hsl(var(--church-gold)), hsl(45 90% 65%));
+    
+    /* Shadows */
+    --shadow-soft: 0 4px 6px -1px hsl(var(--church-blue) / 0.1);
+    --shadow-medium: 0 10px 15px -3px hsl(var(--church-blue) / 0.1);
+    --shadow-strong: 0 25px 50px -12px hsl(var(--church-blue) / 0.25);
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 210 25% 8%;
+    --foreground: 0 0% 95%;
+
+    --card: 210 25% 10%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 210 25% 10%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 220 85% 65%;
+    --primary-foreground: 210 25% 8%;
+
+    --secondary: 210 25% 15%;
+    --secondary-foreground: 0 0% 95%;
+
+    --muted: 210 25% 15%;
+    --muted-foreground: 215 15% 65%;
+
+    --accent: 45 90% 65%;
+    --accent-foreground: 210 25% 8%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 210 25% 15%;
+    --input: 210 25% 15%;
+    --ring: 220 85% 65%;
+
+    /* Church-specific dark colors */
+    --church-gold: 45 90% 65%;
+    --church-blue: 220 85% 65%;
+    --church-light-blue: 210 25% 15%;
+    
+    /* Dark mode gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--church-blue)), hsl(220 85% 75%));
+    --gradient-gold: linear-gradient(135deg, hsl(var(--church-gold)), hsl(45 90% 75%));
+    
+    /* Dark mode shadows */
+    --shadow-soft: 0 4px 6px -1px hsl(0 0% 0% / 0.3);
+    --shadow-medium: 0 10px 15px -3px hsl(0 0% 0% / 0.3);
+    --shadow-strong: 0 25px 50px -12px hsl(0 0% 0% / 0.5);
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
